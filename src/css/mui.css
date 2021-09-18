@@ -1,0 +1,19 @@
+
+/* Navbar */
+.MuiAppBar-colorPrimary {
+  background: var(--color-bg) !important;
+}
+
+
+/* Botones de Lista de produtos */
+.MuiButtonGroup-groupedContainedPrimary {
+  background-color: var(--color-btn) !important;
+}
+
+.MuiButtonGroup-groupedContainedPrimary:hover {
+  background-color: var(--color-accent) !important;
+}
+
+.MuiSvgIcon-root {
+  color: white;
+}

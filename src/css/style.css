@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url(tienda.css);
+@import url(mui.css);
+@import url(single_product.css);
+@import url(nav_bar.css);
+@import url(buttons.css);
+@import url(footer.css);
+@import url(cart.css);
+
+:root {
+  --color-bg: #ffefdc;
+  --color-accent: #bf5f56;
+  --color-btn: #f2887e;
+  --color-letter: #f2a35e;
+  --color-fontNav: rgb(70, 70, 70);
+}
+html, body {margin: 0; padding: 0; }
+
+.content{
+  min-height: 100vh;
+}
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#img_loading {
+  width: 50%;
+  margin: 5% auto;
+  display: block;
+}

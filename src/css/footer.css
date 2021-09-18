@@ -1,0 +1,9 @@
+.footer {
+  background-color: tomato;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  margin-top: 5%;
+}
+

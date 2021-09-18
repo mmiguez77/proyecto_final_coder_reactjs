@@ -1,0 +1,55 @@
+:root {
+  --color-bg: #ffefdc;
+  --color-accent: #bf5f56;
+  --color-btn: #f2887e;
+  --color-letter: #f2a35e;
+  --color-fontNav: rgb(70, 70, 70);
+}
+
+#btn_buy {
+  color: white !important;
+  background-color: var(--color-btn);
+  margin-top: 10px;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: none;
+  width: 100vw;
+  height: 50px;
+  max-width: 120px;
+  border-radius: 5%;
+  transition: 300ms all;
+  border: none;
+}
+
+#btn_buy_delete {
+  color: white !important;
+  background-color: var(--color-btn);
+  margin-top: 25px;
+  width: 30px;
+  height: 35px;
+  border-radius: 5%;
+  transition: 300ms all;
+  border: none;
+}
+
+#btnFinalizarCompra{
+  color: white !important;
+  background-color: var(--color-btn);
+  width: 200px;
+  height: 50px;
+  margin-top: 30%;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5%;
+  border: none;
+  transition: 300ms all;
+}
+
+#btnFinalizarCompra a{
+  text-decoration: none;
+  color: white !important;
+}

@@ -1,0 +1,31 @@
+#grid_finalizar_compra{
+    background: rgba(0, 0, 0, 0.035);
+    padding-bottom: 3%;
+    border-radius: 3%;
+    margin-top: 5%;
+}
+
+#btn_finalizar_compra{
+    background: rgba(0, 0, 0, 0.035);
+    padding-bottom: 3%;
+    border-radius: 3%;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: black;
+}
+
+.img_cart{
+    border-radius: 8%;
+    margin-left: 10%;
+}
+
+.grid_container_prod_cart {
+    background: rgba(0, 0, 0, 0.035);
+    border-radius: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    
+}

@@ -1,0 +1,43 @@
+/*
+* Begin Main Shop 
+*/
+.shop_section img {
+  max-height: 37vh;
+  height: 37vh;
+}
+
+.shop_section img:hover {
+  filter: sepia(40%);
+  transition: 1s;
+}
+
+.shop_section h3 {
+  text-align: center;
+  font-weight: 500;
+}
+
+/*
+* End Main Shop 
+*/
+
+/*
+* Begin Btn Card List 
+*/
+#sin_stock_tag {
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+#qty_tag {
+  justify-content: center;
+}
+
+#qty_tag span {
+  margin-left: 1em;
+  margin-right: 1em;
+  font-size: 1.2em;
+}
+/*
+* End Btn Card List 
+*/
+
