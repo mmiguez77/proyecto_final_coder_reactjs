@@ -12,7 +12,7 @@
 
 ## <a>#EJEMPLO</a> 
 
-<img src="https://github.com/mmiguez77/proyecto_final_coder_reactjs/blob/main/PF_React.gif" width="600" height="400" />
+<img src="https://github.com/mmiguez77/proyecto_final_coder_reactjs/blob/main/PF_React.gif" width="1000" height="700" />
 
 
 ## <a>#LIBRERIAS</a>
