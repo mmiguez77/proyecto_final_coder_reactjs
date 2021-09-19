@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
-// Material UI
 import { makeStyles } from '@material-ui/core/styles';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -23,10 +21,7 @@ const useStyles = makeStyles((theme) => ({
 const CategorySelect = () => {
     const classes = useStyles();
     const [category, setCategory] = React.useState('');
-  
-    const handleChange = (e) => {
-      setCategory(e.target.value);
-    };
+    const handleChange = (e) => {setCategory(e.target.value)};
 
 
   return (

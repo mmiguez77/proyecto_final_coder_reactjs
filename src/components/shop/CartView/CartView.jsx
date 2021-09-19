@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../../context/CartContext";
 import { Link, NavLink } from "react-router-dom";
-
-// Material UI
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
@@ -23,9 +21,9 @@ const CartView = () => {
           <hr />
         </Box>
       ) : (
-        <>
-          <h3>No hay productos en el carrito</h3>
-          <Button>
+        <Box m={5}>
+          <Grid>
+            <h3>No hay productos en el carrito</h3>
             <Link to="/tienda">
               <Button
                 variant="contained"
@@ -36,15 +34,21 @@ const CartView = () => {
                 ¡Vamos a comprar!
               </Button>
             </Link>
-          </Button>
-        </>
+          </Grid>
+        </Box>
       )}
 
       {cart.map((prod) => (
         <Box m={2} key={prod._id}>
           <Grid container className="grid_container_prod_cart">
             <Grid item xs={12} md={3}>
-              <img src={prod.image} width="150" height="150" alt="" className="img_cart"/>
+              <img
+                src={prod.image}
+                width="150"
+                height="150"
+                alt=""
+                className="img_cart"
+              />
             </Grid>
 
             <Grid item xs={12} md={3}>
@@ -52,7 +56,10 @@ const CartView = () => {
                 <h3>{prod.title}</h3>
               </NavLink>
               <span>Categoria:</span>{" "}
-              <NavLink to={`/tienda/category/${prod.category}`} className="nav_link">
+              <NavLink
+                to={`/tienda/category/${prod.category}`}
+                className="nav_link"
+              >
                 <span>{prod.category}</span>
               </NavLink>
             </Grid>

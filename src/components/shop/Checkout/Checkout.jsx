@@ -3,8 +3,7 @@ import { CartContext } from "../../../context/CartContext";
 import generateOrder from "./CheckoutFn";
 import BagResume from "../BagResume/BagResume";
 import { Redirect } from "react-router";
-
-// Begin Material UI
+import Swal from "sweetalert2";
 import Button from "@material-ui/core/Button";
 import LocalMallIcon from "@material-ui/icons/LocalMall";
 import { makeStyles } from "@material-ui/core/styles";
@@ -20,10 +19,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }));
-// End Material UI
+
 
 const Checkout = () => {
-  const { cart, totalBuyAmount } = useContext(CartContext);
+  const { cart, totalBuyAmount, clear } = useContext(CartContext);
   const classes = useStyles();
 
   const [values, setValues] = useState({
@@ -43,11 +42,16 @@ const Checkout = () => {
     e.preventDefault();
 
     if (!values.email || !values.phone || !values.name) {
-      alert("Por favor ingrese todos los datos");
+      Swal.fire("Por favor ingrese todos los datos");
     } else {
       generateOrder(values, cart, totalBuyAmount)
         .then((res) => {
-          alert(res);
+          Swal.fire(
+            `¡Gracias por su compra! — Por favor conserve su identificador: ${res}`
+          );
+          setTimeout(() => {
+            clear();
+          }, 2000);
         })
         .catch((err) => {
           console.log(err);

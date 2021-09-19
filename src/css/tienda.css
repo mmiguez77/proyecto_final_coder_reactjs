@@ -41,3 +41,23 @@
 * End Btn Card List 
 */
 
+.item_detail_long_description{
+  background-color: rgba(0, 0, 0, 0.062);
+  height:200px;
+  margin-top: 10%;
+}
+
+#item_detail_right{
+  background-color: rgba(0, 0, 0, 0.062);
+border-radius: 3%;
+}
+
+#div_item_detail_right{
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+#stock_item_detail_right{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}

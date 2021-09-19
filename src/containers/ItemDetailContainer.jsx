@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "../components/shop/ItemDetail/ItemDetail";
 import { getFirestore } from "../firebase/config.js";
+import Loading from "../components/utils/Loading/Loading";
 
 const ItemDetailContainer = () => {
   const { itemId } = useParams();
@@ -27,20 +28,7 @@ const ItemDetailContainer = () => {
       });
   }, [itemId]);
 
-  return (
-    <>
-      {loading ? (
-        <img
-          className="col-12"
-          src="/img/loading.gif"
-          alt="loading..."
-          id="img_loading"
-        />
-      ) : (
-        <ItemDetail {...item} />
-      )}
-    </>
-  );
+  return <>{loading ? <Loading /> : <ItemDetail {...item} />}</>;
 };
 
 export default ItemDetailContainer;

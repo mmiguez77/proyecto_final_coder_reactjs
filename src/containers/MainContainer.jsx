@@ -7,7 +7,7 @@ import FooterContainer from "../containers/FooterContainer";
 import {CartProvider} from "../context/CartContext";
 import CartView from "../components/shop/CartView/CartView"
 import Checkout from "../components/shop/Checkout/Checkout"
-
+import Home from "../components/home/Home"
 
 const MainContainer = () => {
   
@@ -19,11 +19,11 @@ const MainContainer = () => {
 
         <Switch>
           <Route exact path="/">
-            <h2>Home</h2>
+            <Home />
           </Route>
 
           <Route exact path="/lascholas">
-            <h1>Las Cholas</h1>
+            <h1>Sobre Las Cholas</h1>
           </Route>
 
           <Route exact path="/tienda">

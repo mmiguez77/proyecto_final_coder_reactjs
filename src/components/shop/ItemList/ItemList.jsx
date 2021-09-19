@@ -1,8 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import CategorySelect from "../CategorySelect/CategorySelect";
-
-// Material UI imports
 import { ButtonGroup } from "@material-ui/core";
 import { Button } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";

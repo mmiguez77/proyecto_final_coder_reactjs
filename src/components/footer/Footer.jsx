@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <h4>FOOTER</h4>
+      <h5>Proyecto Final Coderhouse: Curso RJS</h5>
     </footer>
   );
 };
