@@ -12,7 +12,7 @@
 
 ## <a>#EJEMPLO</a> 
 
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="500" height="350" />
+<img src="https://firebasestorage.googleapis.com/v0/b/las-cholas-tejidos.appspot.com/o/PF_React.gif?alt=media&token=320a9257-7c21-4dea-b155-64a882e74435" width="600" height="400" />
 
 
 ## <a>#LIBRERIAS</a>
