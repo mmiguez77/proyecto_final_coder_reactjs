@@ -12,7 +12,7 @@
 
 ## <a>#EJEMPLO</a> 
 
-<img src="https://firebasestorage.googleapis.com/v0/b/las-cholas-tejidos.appspot.com/o/PF_React.gif?alt=media&token=320a9257-7c21-4dea-b155-64a882e74435" width="600" height="400" />
+<img src="https://github.com/mmiguez77/proyecto_final_coder_reactjs/blob/main/PF_React.gif" width="600" height="400" />
 
 
 ## <a>#LIBRERIAS</a>
